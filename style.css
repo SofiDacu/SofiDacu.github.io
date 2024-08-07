@@ -1,0 +1,167 @@
+body{
+    font-family: Garamond;
+    background-color: #EFEEEE;
+    text-align: justify;
+   /*  background-color: #E8DAEF; */
+    /* background-color: #a6a0d8; */
+    /* background-color: #c9d3e7; */
+}
+
+p{
+    margin-right: 5em;
+    margin-left: 5em;
+    font-size: 1.2em;
+}
+
+h1{
+    color:  rgb(48, 117, 117);
+    text-align: center;
+    font: 100%;/* 
+    font-family: Georgia; */
+    font-family: display;
+    margin-top: 1em;
+    
+    font-size: 3em;
+}
+
+div.parrafo2{
+    background-color: rgb(48, 117, 117);
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+.Sobre_mi{
+    display: flex;
+    font: 120%;
+    padding-top: 2em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+}
+
+#facilidades{
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+
+    /* margin-left: 25%; */
+}
+
+.infancia{
+    display: flex;
+    font: 120%;
+    padding-top: 2em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+}
+
+.formacion{
+    margin-top: 2em;
+    display: flex;
+    font: 120%;
+    padding-right: 5em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+}
+
+.conciertos{
+    margin-top: 2em;
+    /* margin-bottom: 2.5em; */
+    display: flex;
+   /*  font: 500%; */
+    text-align: center;
+    padding-right: 5em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+}
+
+.td1{
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+
+}
+
+.img1{
+    transition: 0.5s;
+    object-fit: cover;
+
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+
+div > #tabla2{
+    background-color: azure;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+
+}
+
+.proyectos{
+    margin-top: 2em;
+    display: flex;
+    font: 120%;
+    padding-bottom: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.contacto{
+    background-color: rgb(48, 117, 117);
+    margin-top: 2em;
+    text-align: center;
+    padding-top: 2em;
+    margin-right: 5em;
+    padding-bottom: 2em;
+    margin-left: 5em;
+}
+
+.contacto-box {
+    background-color: #fff;
+    padding: 1.25em;
+    max-width: 25em;
+    margin: 0 auto;
+}
+.contacto-box h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+.contacto-box label {
+    display: block;
+    margin-top: 0.625em;
+    font-size: 1em;
+    color: #555;
+}
+.contacto-box input,
+.contacto-box textarea {
+    width: 100%;
+    padding: 0.625em;
+    margin-top: 0.313em;
+    border: 0.063em solid #ddd;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+.contacto-box button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.625em 1.25em;
+    border: none;
+    
+    font-size: 1.125em;
+    cursor: pointer;
+    margin-top: 1.25em;
+    width: 100%;
+}
+.contacto-box button:hover {
+    background-color: #555;
+}
